@@ -1,113 +1,52 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-* {box-sizing: border-box;}
-
-body { 
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.header {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
-}
-
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
-}
-
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.header a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
-.header-right {
-  float: right;
-}
-
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .header-right {
-    float: none;
-  }
-}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
 </style>
-</head>
 <body>
 
-<div class="header">
-  <a href="#default" class="logo">Dogonmaje-It-Solutions Ltd</a>
-  <div class="header-right">
-  
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white"></a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Us</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact Us</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Our Partners</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Our Services</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">About Us</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Our Partners</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Our Srvices</a>
   </div>
 </div>
 
-<div style="padding-left:20px">
-  <h1></h1>
-  <p><head>
-<style> 
-#myDIV {
-  width: 1500px;
-  height: 130px;
-  background: red;
-  animation: mymove 5s infinite;
-}
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Dogonmaje-it-Solutions Ltd</h1>
+  <p class="w3-xlarge">We are experts in responsive websites designing for small and medium businesses in Nigeria from Katsina state</p>
+  
+</header>
 
-@keyframes mymove {
-  from {background-color: red;}
-  to {background-color: black;}
-}
-</style>
-</head>
-<body>
-<h1></h1>
-<p><p>
-<div id="myDIV"></style>
-<div class="w3-container w3-green">
-  <h1>Dogonmaje-iT-Solutions Ltd</h1> 
-  <h4>We are experts in responsive websites designing for medium businesses in Nigeria from Katsina state</h4>
-  <h3>Dogonmaje-iT-Solutions Ltd</h3>
-  <p></p> 
-</div></div>
-</style>
-<style>body {
-  background-color: black;
-} body {
-  color :white;
-} h1{
-    color:gold;
-}  h3{
-      color:gold;
-}  h4{
-     color:gold
-}</style>
-<p><div class="w3-row-padding">
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Dogonmaje-iT-Solutions Ltd</h1>
+      <h4><p><div class="w3-row-padding">
   <div class="w3-third">
     <h3>KABIR Abdullahi</h3>
     <p>Senior Manager.</p>
@@ -116,9 +55,9 @@ body {
   </div>
 
   <div class="w3-third">
-    <h3>Nura Abdullahi</h3>
+    <h3>Bashir Abdullahi </h3>
     <p>Senior Manager.</p> 
-    <p>Contact -
+    <p>Contact: info@dogonmaje-it-solutions.com
     .</p>
   </div>
 
@@ -129,41 +68,61 @@ body {
     .</p>
   </div>  
 </div> 
- <p> We are experts in building responsive( that works across all devices) websites for small and medium businesses in Nigeria for very cheap price,Please feel free to contact one of the above names, We also offer the following services --
+ <p> We are experts in building responsive( that works across all devices) websites for small and medium businesses in Nigeria for very affordable prices,Please feel free to contact one of the above names, We also offer the following services --
   !! Web updates Services 
   !!! Mobile Apps ( both iOs and Android).</>
-.</p>
-</style>
-<style> 
-#myDIV {
-  width: 1500px;
-  height: 130px;
-  background: red;
-  animation: mymove 5s infinite;
-}
+.</p>.</h4>
+      <h5 class="w3-padding-32">.</h5>
 
-@keyframes mymove {
-  from {background-color: red;}
-  to {background-color: black;}
-}
-</style>
-</head>
-<body>
-<h1></h1>
-<p><p>
-<div id="myDIV"></style>
-<div class="w3-container w3-green">
-  <h1>Dogonmaje-iT-Solutions Ltd</h1> 
-  <h4>We are experts in responsive websites designing for medium businesses in Nigeria from Katsina state</h4>
-  <h3>Dogonmaje-iT-Solutions Ltd</h3>
-  <p></p> 
-</div></div>
-</style>
-</body>
-</html>
-</p>
-  <p></p>
+      <p class="w3-text-grey"></p>
+    </div>
+
+    <div class="w3-third w3-center">
+     
+    </div>
+  </div>
 </div>
 
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+         </div>
+
+    <div class="w3-twothird">
+      <h1></h1>
+      <h5 class="w3-padding-32">.</h5>
+
+      <p class="w3-text-grey">.</p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">We are experts in building responsive( that works across all devices) websites for small and medium businesses in Nigeria for very affordable prices,Please feel free to contact one of the above names, We also offer the following services -- !! Web updates Services !!! Mobile Apps ( both iOs and Android). .</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">   
+    <i class="fa fa-instagram w3-hover-opacity"></i>    
+    <i class="fa fa-twitter w3-hover-opacity"></i>    
+ </div>
+ <p></a>Dogonmaje-iT-Solutions Ltd Katsina State- Nigeria</p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
 </body>
 </html>
+
