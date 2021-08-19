@@ -1,4 +1,4 @@
-let renderer, scene, camera, cameraCtrl;
+<script></script>let renderer, scene, camera, cameraCtrl;
 let width, height, cx, cy, wWidth, wHeight;
 const TMath = THREE.Math;
 
@@ -113,3 +113,4 @@ function getRendererSize() {
   const width = height * cam.aspect;
   return [width, height];
 }
+</script>
