@@ -1,4 +1,5 @@
-<script></script>let renderer, scene, camera, cameraCtrl;
+<script>
+let renderer, scene, camera, cameraCtrl;
 let width, height, cx, cy, wWidth, wHeight;
 const TMath = THREE.Math;
 
