@@ -1,3 +1,4 @@
+<style>
 a,
 a:focus,
 a:hover {
@@ -116,3 +117,4 @@ body.loaded #reveal-effect {
 body.revealed #reveal-effect {
   display: none;
 }
+</style>
