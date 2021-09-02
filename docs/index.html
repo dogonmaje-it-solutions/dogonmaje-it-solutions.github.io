@@ -114,24 +114,18 @@
                 padding: 0;
                 background-color: rgba(0,0,0,0.05);
             }
+            function draw() {
+  var ctx = document.getElementById('cw').getContext('2d');
+  ctx.font = '48px serif';
+  ctx.fillText('Hello world', 10, 50);
+            }
         </style>
         
     </head>
     <body>
         <canvas id="cw"></canvas>
 
-<canvas id="cw" width="700" height="400"
-style="border:1px solid #d3d3d3;">
-</canvas>
 
-<script>
-var canvas = document.getElementById("cw");
-var ctx=canvas.getContext("2d");
-ctx.font="30px Comic Sans MS";
-ctx.fillStyle = "red";
-ctx.textAlign = "center";
-ctx.fillText("Dogonmaje-it-Technology Solutions Ltd", canvas.width/2, canvas.height/2);
-</script>
-        
-    </body>
+
+</body>
 </html>
