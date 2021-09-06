@@ -117,9 +117,20 @@
             
             
 </style>
+<style>
+      #canvas {
+        background: #19d153;
+      }
+    </style>
 </head>
 <body>
 <canvas id="cw"></canvas>    
-
+<canvas id="canvas" width="500" height="70"></canvas>
+    <script>
+      var canvas = document.getElementById("canvas");
+      var context = canvas.getContext("2d");
+      context.font = "15px Verdana";
+      context.strokeText("DogonMaje-it-Technology Solutions Ltd -from Katsina State", 50, 50);
+    </script>
 </body>
 </html>
