@@ -74,5 +74,20 @@ function explode() {
   window.requestAnimationFrame(explode);
 }
 </script>
+<style>
+    #canvas {
+      background: #4bf452;
+    }
+  </style>
+</head>
+<body>
+<canvas id="cw"></canvas>    
+<canvas id="canvas" width="500" height="70"></canvas>
+  <script>
+    var canvas = document.getElementById("canvas");
+    var context = canvas.getContext("2d");
+    context.font = "15px Verdana";
+    context.strokeText("Liquid Sunshine-it-Technology Solutions Ltd", 10, 50);
+  </script>
 </body>
 </html>
